@@ -1,0 +1,23 @@
+# Default Strategy Parameters
+DEFAULTS = {
+    "min_market_cap_cr": 5000,
+    "min_avg_delivery_value_cr": 25,
+    "min_price": 100,
+    "max_price": 5000,
+    "ema_trend_period": 200,
+    "rsi_period": 14,
+    "rsi_momentum_low": 55,
+    "rsi_momentum_high": 70,
+    "rsi_reversion_low": 30,
+    "rsi_reversion_high": 40,
+    "atr_period": 14,
+    "atr_stop_mult": 1.5,
+    "atr_trail_mult": 2.0,
+    "risk_per_trade_pct": 1.0,
+    "max_positions": 8,
+    "target1_r": 1.5,
+    "target2_r": 3.0,
+    "max_hold_days": 15,
+    "time_stop_days": 10,
+    "cost_per_side_pct": 0.20,
+}
